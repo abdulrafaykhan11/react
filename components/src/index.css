@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #f8f4f4;
+    line-height: 1.6;
+}
+.card{
+    background-color: #cf3737;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(101, 57, 57, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+}
