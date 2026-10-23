@@ -8,6 +8,8 @@ import { Route } from "react-router-dom";
 import Notfound from "./Pages/Notfound";
 import Men from "./Pages/Men";
 import Women from "./Pages/Women";
+import Courses from "./Pages/Courses";
+import CoursesDetail from "./Pages/CoursesDetail";
 
 const App = () => {
   return (
@@ -16,9 +18,11 @@ const App = () => {
       <Routes>
         <Route element={<Home />} path="/" />
         <Route element={<Abour />} path="/about" />
+        <Route element={<Courses />} path="/courses" />
+        <Route element={<CoursesDetail />} path="/courses/:course" />
         <Route element={<Products />} path="/products">
-          <Route element={<Men/>} path="men"/>
-          <Route element={<Women/>} path="women"/>
+          <Route element={<Men />} path="men" />
+          <Route element={<Women />} path="women" />
         </Route>
         <Route element={<Notfound />} path="*" />
       </Routes>
