@@ -10,15 +10,29 @@ body {
   height: 100%;
 }
 
-.nav{
-    display: flex;
-    background-color: lightseagreen;
-    justify-content: space-between;
-    padding: 14px 20px;
-    align-items: center;
+.nav {
+  display: flex;
+  background-color: lightseagreen;
+  justify-content: space-between;
+  padding: 14px 20px;
+  align-items: center;
 }
-.nav2{
-    display: flex;
-    gap: 30px;
-    align-items: center;
+.nav2 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.light {
+  display: flex;
+  background-color: lightcoral;
+  justify-content: space-between;
+  padding: 14px 20px;
+  align-items: center;
+}
+.dark {
+  display: flex;
+  background-color: darkcyan;
+  justify-content: space-between;
+  padding: 14px 20px;
+  align-items: center;
 }

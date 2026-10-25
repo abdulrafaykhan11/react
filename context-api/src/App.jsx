@@ -1,15 +1,15 @@
-import { useState } from "react";
+
+import Button from "./components/Button";
 import Navbar from "./components/Navbar";
 
+
 const App = () => {
-  const [theme, settheme] = useState("light");
+
 
   return (
     <div>
-      <Navbar theme={theme}>
-        <h2>Wow</h2>
-        <h2>Wowwww</h2>
-      </Navbar>
+      <Navbar/>
+      <Button/>
     </div>
   );
 };
